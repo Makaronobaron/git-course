@@ -1,0 +1,103 @@
+﻿p {
+    color: #F60018;
+    text-align: justify;
+    text-indent: 50px;
+    font: normal 20px/70px Comic Sans MS;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+    color: rgb(0, 172, 0);
+    text-align: center;
+}
+h3 {
+    color: blueviolet;
+}
+td {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    text-decoration: line-through;
+    font: bolder italic 16px Arial;
+}
+th {
+    text-align: left;
+    font-weight: normal;
+}
+table {
+    width: 400px;
+}
+a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+i {
+    color: #A60000;
+}
+ol li {
+    color: purple;
+    text-indent: 10px;
+}
+ul li {
+    color: green;
+}
+p > i{
+    color: blue;
+}
+span > i{
+    color: aqua;
+}
+.макака {
+    color: palevioletred;
+}
+.chel {
+    color: black;
+}
+.purple {
+    color: purple;
+    font-size: 30px;
+}
+.макака b {
+    color: darkmagenta;
+}
+.chich {
+    color:palevioletred;
+    font-size: 25px;
+}
+.pups p.chels {
+    font-size: 20px;
+    color: #A60000;
+}
+#lok1 {
+    color: purple;
+}
+#lok2 li {
+    color: palevioletred;
+}
+.large {
+    font-size: 25px;
+}
+.bbb, .zzz {
+	color: rgb(255, 136, 0);
+}
+#zzz {
+    color:#5af600;
+}
+#bbb {
+    color:blue;
+}
+.jij {
+background-color: rgb(175, 175, 175);
+}
+.zzz.bbb b {
+    color:#F60018;
+}
+.mmm {
+    color: #5af600;
+}
+#fff {
+    color: #4051ee;
+}

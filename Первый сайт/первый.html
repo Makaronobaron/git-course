@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТЕСТИРОВОЧНАЯ СОЛЯНКА</title>
+    <link rel="stylesheet" href="C:\Users\user\Desktop\ПРАКТИКА\style.css">
+</head>
+<body>
+    <h1>Делаем абзацы через H1</h1>
+    <p>
+        Это <b>абзац</b>, сделан с помощью p, и выделен жирным через b.
+    </p>
+    <p>
+        Это еще один <i>обзац</i>, выделен курсивом с помощью i.
+    </p>
+    <P>
+        И еще один абзац.
+    </P>
+    <h2>Делаем заголовки</h2>
+    <h3>Заголовок h3</h3>
+<h4>Заголовок h4</h4>
+<h5>Заголовок h5</h5>
+<h6>Заголовок h6</h6>
+<ul>
+    <li>делаем неупорядочные строки Li, с lu списком, стоящей во главе</li>
+    <li>пункт</li>
+    <li>списка</li>
+</ul>
+<ol>
+    <li>делаем упорядочные строки li, с ol списком, стоящим во главе</li>
+    <li>добавляю</li>
+    <li>для наглядности</li>
+</ol>
+<h1>Вставляем ссылку на страницу</h1>
+<p>Делаем это с помощью: </p>
+<code class="highlight" data-module="highlight" data-lang="html"><span class="line-number line-number-level-1"></span><span class="token token-html token-tag"><span class="token token-html token-tag-name">&lt;a</span><span class="token token-html token-gap"> </span><span class="token token-html token-attributes"><span class="token token-html token-attribute"><span class="token token-html token-name">href</span><span class="token token-html token-equal">=</span><span class="token token-html token-quote">"</span><span class="token token-html token-value"><span class="token token-html token-plain">https://www.google.com</span></span><span class="token token-html token-quote">"</span></span></span><span class="token token-html token-tag-name">&gt;<span class="break break-1-of-1"><br><span>	</span></span></span></span><span class="token token-html token-plain">ссылка</span><span class="token token-html token-tag-name">&lt;/a&gt;<span class="break break-gap-of-1">&nbsp;</span></span></code>
+<p>
+</p>
+<ol>
+<li><a href="https://www.code.mu/ru/markup/book/prime/html/links/">Учебник по HTML.</a>
+</li>
+<li><a href="https://www.google.com">Google</a>
+</li>
+<li><a href="https://www.code.mu/ru/markup/book/prime/html/links/">Учебник по HTML 2 версия.</a></p>
+</li>
+</ol>
+<p>
+</p>
+<h1>Вторая страница</h1>
+<a href="index.html">ссылка на index</a>
+<p></p>
+<p>добавляем изображение с помощью </p>
+<code class="highlight" data-module="highlight" data-lang="html"><span class="line-number line-number-level-1"></span><span class="token token-html token-tag"><span class="token token-html token-tag-name">&lt;img</span><span class="token token-html token-gap"> </span><span class="token token-html token-attributes"><span class="token token-html token-attribute"><span class="token token-html token-name">src</span><span class="token token-html token-equal">=</span><span class="token token-html token-quote">"</span><span class="token token-html token-value"><span class="token token-html token-plain">smile.png</span></span><span class="token token-html token-quote">"</span></span></span><span class="token token-html token-tag-name">&gt;</span></span></code>
+<p></p>
+<p>Также уменьшаем картинку с помощью атрибута width, и работает он, не как ширина, а как общая пропорция (можно сделать аналогично через атрибут высоты - height).</p>
+<img src="C:\Users\user\Desktop\ПРАКТИКА\КАРТИНКИ\ливси с цветком.jpg" width="300">
+<p>А теперь, ради практики и забавы, исказим картинку сразу через ширину и высоту.</p>
+<img src="C:\Users\user\Desktop\ПРАКТИКА\КАРТИНКИ\ливси с цветком — копия.jpg" width="800" height="200">
+<h1>Работа с таблицами.</h1>
+<p>Главным тегом является "table", внутри которого должны лежать теги "td"- которые создадут ячейки.</p>
+<p>Также тег "table", должен иметь атрибут "border", который задает границу таблице и ее ячейкам.</p>
+<p>Таблица строится строками сверху вниз. Поэтому, если простым языком, то <b>tr</b>- это строчка, <b>td</b>- это столбик. А <b>th</b> это, тот же самый <b>td</b> стобик, но выделенный жирным, как оглавление столбца.</p>
+<h4>Пример таблицы с тремя рядами и тремя ячейками в каждом ряду:</h4>
+<p></p>
+<table border="1">
+    <!--"Это будет первый ряд таблицы:"-->
+    <tr>
+        <td>ячейка 1</td>
+        <td>ячейка 2</td>
+        <td>ячейка 3</td>
+    </tr>
+
+    <!--"Это будет второй ряд таблицы:"-->
+    <tr>
+        <td>ячейка 4</td>
+        <td>ячейка 5</td>
+        <td>ячейка 6</td>
+    </tr>
+
+     <!--"Это будет второй ряд таблицы:"-->
+     <tr>
+        <td>ячейка 7</td>
+        <td>ячейка 8</td>
+        <td>ячейка 9</td>
+    </tr>
+</table>
+<p></p>
+<p>Мы сделали ее с помощью следующего кода:
+</p>
+<code class="highlight" data-module="highlight" data-lang="html"><span class="line-number line-number-level-1"></span><span class="token token-html token-tag"><span class="token token-html token-tag-name">&lt;table</span><span class="token token-html token-gap"> </span><span class="token token-html token-attributes"><span class="token token-html token-attribute"><span class="token token-html token-name">border</span><span class="token token-html token-equal">=</span><span class="token token-html token-quote">"</span><span class="token token-html token-value"><span class="token token-html token-plain">1</span></span><span class="token token-html token-quote">"</span></span></span><span class="token token-html token-tag-name">&gt;</span></span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-1"></span>	</span><span class="token token-html token-comment">&lt;!--Это будет первый <span class="break break-1-of-1"><br><span>		</span></span>ряд таблицы:--&gt;<span class="break break-gap-of-1">&nbsp;</span></span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-1"></span>	</span><span class="token token-html token-tag-name">&lt;tr&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-1"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 1</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-1"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 2</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-1"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 3</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-1"></span>	</span><span class="token token-html token-tag-name">&lt;/tr&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-1"></span>	
+    <span class="line-number line-number-level-1"></span>	</span><span class="token token-html token-comment">&lt;!--Это будет второй <span class="break break-1-of-1"><br><span>		</span></span>ряд таблицы:--&gt;<span class="break break-gap-of-1">&nbsp;</span></span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>	</span><span class="token token-html token-tag-name">&lt;tr&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 4</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 5</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 6</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>	</span><span class="token token-html token-tag-name">&lt;/tr&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>	
+    <span class="line-number line-number-level-2"></span>	</span><span class="token token-html token-comment">&lt;!--Это будет третий <span class="break break-1-of-1"><br><span>		</span></span>ряд таблицы:--&gt;<span class="break break-gap-of-1">&nbsp;</span></span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>	</span><span class="token token-html token-tag-name">&lt;tr&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 7</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 8</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>		</span><span class="token token-html token-tag-name">&lt;td&gt;</span><span class="token token-html token-plain">ячейка 9</span><span class="token token-html token-tag-name">&lt;/td&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span>	</span><span class="token token-html token-tag-name">&lt;/tr&gt;</span><span class="token token-html token-plain">
+    <span class="line-number line-number-level-2"></span></span><span class="token token-html token-tag-name">&lt;/table&gt;</span></code>
+   <p></p>
+   <h3>А теперь, увеличим таблицу, зададав как и картинке ширину и высоту. Вставив после border="1": width и height.</h3>
+   <table border="1" width="300" height="200">
+    <!--"Это будет первый ряд таблицы:"-->
+    <tr>
+        <td>ячейка 1</td>
+        <td>ячейка 2</td>
+        <td>ячейка 3</td>
+    </tr>
+
+    <!--"Это будет второй ряд таблицы:"-->
+    <tr>
+        <td>ячейка 4</td>
+        <td>ячейка 5</td>
+        <td>ячейка 6</td>
+    </tr>
+
+     <!--"Это будет второй ряд таблицы:"-->
+     <tr>
+        <td>ячейка 7</td>
+        <td>ячейка 8</td>
+        <td>ячейка 9</td>
+    </tr>
+</table>
+<p>Теперь добавим тег <b>th</b>, которые создают <b><i>ячейки-заголовки.</i></b></p>
+<p></p>
+<table border="1" width="250" height="150">
+    <tr>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Зарплата</th>
+    </tr>
+    <tr>
+        <td>Денис</td>
+        <td>Андронов</td>
+        <td>300$</td>
+    </tr>
+    <tr>
+        <td>Илья</td>
+        <td>Завертяев</td>
+        <td>200$</td>
+    </tr>
+    <tr>
+        <td>Андрей</td>
+        <td>Будапештов</td>
+        <td>100$</td>
+    </tr>
+</table>
+<h1>Начинаем работать со стилями css.</h1>
+<p>Каждому тегу <b>HTML</b>, соответствует селектор <b>CSS</b>. Если в </b>html<b>, будет тег <b>p</b> (в скобках), то ему будет соответствовать селектор <b>p</b>.</p>
+<code class="highlight" data-module="highlight" data-lang="css"><span class="line-number line-number-level-1"></span><span class="token token-css token-selector"><span class="token token-css token-plain">p </span></span><span class="token token-css token-plain">{
+    <span class="line-number line-number-level-1"></span>	</span><span class="token token-css token-property"><span class="token token-css token-name">color</span><span class="token token-css token-punctuation">:</span><span class="token token-css token-gap"> </span><span class="token token-css token-value"><span class="token token-css token-plain">red</span></span><span class="token token-css token-punctuation">;</span></span><span class="token token-css token-plain">
+    <span class="line-number line-number-level-1"></span>}</span></code>
+    <p></p>
+    <p>И так с каждым элементом, будь то h1, h2 или h3.</p>
+    <p>Также можно менять цвет через <b>RGB</b> и <b>#</b>. Генераторы цвета: 
+        <a href="https://colorscheme.ru/">ColorSheme,</a>
+        <a href="http://colorcop.net/download/">ColorCop</a>
+        <h2>Ширина и высота элементов на CSS.</h1>
+        <p>Для задания ширины и высоты элементов в <b>CSS</b> предназначены свойства <b>width</b> и <b>height</b>. Задаются они в пикселях- <b>px</b>.</p>
+<h2>Выравнивание текста на CSS.</h1>
+<p>Для этого, используется свойство <b>text-align</b>, дабывляю к нему значения <b>left</b>, <b>right</b>, <b>center</b> и <b>justify</b> (<i>одноременно по правому и левому краю</i>).</p>
+<p>Значение <b>left</b> для абзацев можно не ставить, т.к. они по умолчанию слева. Но элементы с умолчанием по центру, такие как <b>th</b>, можно выравнять по левому краю.</p>
+<h2>Жирность текста на CSS.</h2>
+<p> За жирность всего текста отвечает свойство - <b>font-weight</b>, и значение <b>bold</b> (<i>делает текст жирным</i>), и значение <b>normal</b> (<i>делает текст нормальным</i>). </p>
+<h2>Курсив на CSS.</h2>
+<P>За курсив всего текста отвечает свойство - <b>font-style</b>, и значения <b>italic</b> (<i>делает текст курсивом</i>), и значение <b>normal</b> (<i>делает текст нормальным</i>).</P>
+<h2>Размер шрифта на CSS.</h2>
+<p>За размер всего текста отвечает свойство - <b>font-size</b>, и меняется в пикселях (<b><i>px</i></b>).</p>
+<h2>Тип шрифта на CSS.</h2>
+<p>За шрифт всего текста отвечает свойство - <b>font-family</b>, и вот основные шрифты: Times New Roman (<i>стоит по умолчанию</i>), Arial, Georgia, Verdana, Trebuchet MS, Impact, Arial Black, Comic Sans MS, Courier New.</p>
+<h2>Межстрочный интервал на CSS.</h2>
+<p>За  межстрочный интервал текста (<i>расстояние между линиями текста</i>), отвечает свойство <b>line-height</b>, задающее высоту линии текста.</p>
+<p>Но, реальный видимый промежуток будет вычисляться так: <b>line-height - font-size =</b>видимое расстояние между строками текста.</p>
+<p>Значение свойства <b>line-height</b> можно записать как число или дробь.
+    К примеру, <b>font-size</b> равен 10px, а <b>line-height - 1.5</b>. В этом случае реальное значение <b>line-height</b> будет <b>10px * 1.5 = 15px</b>. Ну, а видимый белый промежуток между линиями текста будет <b>5px: 15px - 10px = 5px</b> (<i>Преимущество такого способа задания line-height в том, что при изменении размера шрифта автоматически будет меняться и межстрочный интервал.</i>).</p>
+<h2>Свойство-сокращение font.</h2>
+<p>В <b>CSS</b> для большего удоства существует специальное свойство-сокращение <b>font</b>. Данное свойство позволяет одновременно задать размер шрифта, семейство, жирность, курсив и межстрочный интервал.</p>
+<span class="token token-css token-plain">bold italic 16px/50px Arial<span class="break break-1-of-1"><br><span></span>
+<p><b>Доп. подмечание: обязательно должно быть семейство шрифта.</b></p>
+<h2>Красная строка текста на CSS.</h2>
+<p>За отступ первой строки текста, т.е. за красную строку отвечает свойство - <b>text-indent</b>.</p>
+<h2>Эффекты текста на CSS.</h2>
+<p>Свойство <b>text-decoration</b> - позволяет задавать некоторые эффекты для текста: <b>underline</b> (<i>подчеркивание</i>), <b>line-through</b> (<i>перечеркивание</i>), <b>overline</b> (<i>линию сверху</i>), и отменять эти эффекты (<b><i>none</i></b>).</p>
+<p>Например, в тексте убираем подчеркивание с ссылки на <a href="https://www.google.com">Гугл</a>.</p>
+<h2>Группировка селекторов на CSS.</h2>
+<p>Если мы хотим задать одинаковый свойства для разных селекторов, мы можем их сгруппировать (<i>и дополить тем, что не повторяется</i>):</p>
+<ol>
+    <li>h2, h3, p {</li>
+        <li>color: red;</li>
+        <li>}</li>
+        <li>p {</li>
+            <li>text</li>
+</ol>
+<h2>Селектор потомков на CSS.</h2>
+<p>Чтобы, к примеру, покрасить <b>li</b> в нумированном списке <b>ol</b>, нам поможет селектор <i>потомков.</i> Для этого нужно указать селектор родителя, а через пробел - селектор потомка.</p>
+<ol>
+    <li>ul li {</li>
+        <li>color: red;</li>
+        <li>}</li>
+        <li>ol li i}</li>
+        <li>color: green;</li>
+        <li>}</li>
+</ol>
+<h2>Классы элементов на CSS.</h2>
+<p class="макака">Для того, чтобы выделить цветом определенный абзац, мы относим этот абзац к разным стилям <b>CSS</b>
+Для этого, мы добавляем к тегу атрибут <b>class</b>, а в нем даем ему название.</p>
+<p>В <b>CSS </b> даем необходимые характеристики через: <b>.НАЗВАНИЕ {</b> </p>
+<ol>
+    <li class="chel">p class="MAKAKA"></li>
+    <li>Абзац с текстом.</li>
+    <li>/p></li>
+</ol>
+<h2>Тег span для кусочков текста.</h2>
+<p>Также и для любого кусочка текста или элемента. Просто открываем <b><span class="purple">SPAN и закрываем /span></span></b>   (<i>так я и покрасил этот кусок и изменил его размер</i>).</p>
+<h2>Тег div для группировки тегов.</h2>
+<p>Помимо тега <b>class</b>, есть специальный тег <b>div class="НАЗВАНИЕ"></b> (<i>и закрываем через /div></i>), который позволяет сгруппировать несколько тегов, чтобы затем сними сделать что-нибудь одновременно.
+Т.е. по сути мы тоже выделяем кусок, но куда больше (<i>с несколькими тегами <b>p</b>, к примеру</i>).</p>
+<h2>Группировка классов.</h2>
+<p>Группировка классов в <b>CSS</b>, происходит за счет их перечисления:</p>
+<ol>
+    <li>.НАЗВАНИЕ, .НАЗВАНИЕ2 {</li>
+        <li>color: red;</li>
+        <li>}</li>
+</ol>
+<h2>Тег с заданным классом.</h2>
+<p>Суть в том, что можно, обратиться к конкретному тегу с классом. К примеру, можно выбрать все h2 с классом eee и отдельно выбрать все p с этим классом.
+    Для этого в селекторе нужно написать имя тега, а затем слитно имя класса.</p>
+    <ol>
+        <li class="chich"> h2.НАЗВАНИЕ { </li>
+            <li>color: red;</li>
+            <li class="chich"></liclass>>}</li>
+            <li>p.НАЗВАНИЕ {</li>
+                <li class="chich">>color: green;</li>
+                <li>}</li>
+    </ol>
+    <div class="pups">
+        <h2>Более сложные комбинации.</h2>
+        <p class="chels">Сейчас мы зададим свои характеристики этому тексту класса <b>chels</b>, который находится в классе <b>pups</b>.</p>
+        <ol>
+            <li>.pups p.chels {</li>
+            <li>font-size: 20px;</li>
+            <li>color: #A60000;</li>
+            <li>}</li>
+        </ol>
+        <h2>Распространенная ошибка новичков.</h2>
+        <p>Разница в работе с селекторами следующая: <b>p.eee</b> - такой селектор выбирает абзацы с классом <b>eee</b>. А вот если я сделаю так: <b>p .eee</b>, то выберу все элементы с классом <b>eee</b>, находящиеся внутри абзацев.</p>
+<h2>Элемент с несколькими классами.</h2>
+<p>Можно одновременно задать несколько <b>CSS</b> классов какому-нибудь тегу. Для этого в атрибуте <b>class</b> эти классы нужно перечислить через пробел. Выглядеть это будет так:</p>
+<ol>
+    <li>p class="chel pups"></li>
+    <li>lorem ipsum</li>
+    <li>/p></li>
+</ol>
+<h2>Выбор элемента по уникальному id на CSS.</h2>
+<p>Кроме классов, можно также выбирать элементы по <b>id</b> (<span id="lok1">например этому кусочку</span>), представляющим собой уникальный идентификатор элемента. Уникальный идентификатор задается с помощью атрибута <b>id</b>, в котором пишется придуманное нами имя. К примеру:</p>
+<ol>
+    <li>div id="block1"></li>
+    <li>p>текст/p></li>
+    <li>/div></li>
+</ol>
+<p>Чтобы обратитьсяк элементу с заданным <b>id:</b></p>
+<ol>
+    <li>#block1 {</li>
+    <li>color: red;</li>
+    <li>}</li>
+</ol>
+<p>Подмечание:
+    Одному элементу можно задавать и <b>id</b>, и классы. В этом случае часть стилей элемента можно задать через <b>id</b>, а часть стилей - через класс (<li>как в этом списке</li>):</p>
+<ol>
+    <div id="lok2" class="large">
+    <li>div id="lok2" class="chel"></li>
+    <li>p>текст /p> </li>
+    <li>/div></li>
+</div>
+</ol>
+<p>Атрибут <b>id</b> используется в том случае, когда необходимо подчеркнуть уникальность элемента. Классы используются тогда, когда предполагается, что таких элементов может быть много, даже если он сейчас один.</p>
+<h2>Использование id на CSS.</h2>
+<p>Можем также проводить различные манипуляции со всеми тегами из элемента с <b>id</b>. Также можем редактировать классы, находящихся внутри <b>id</b>, или элементы с классом, находящихся внутри <b>id</b>: </p>
+<ol>
+    <li>#lok2 .large {</li>
+    <li>color: red;</li>
+    <li>}</li>
+</ol>
+<h2>Выбор элемента по нескольким классам на CSS.</h2>
+<p>При условии, что у нас есть три разных класса:
+    первый абзац имеет класс eee, второй абзац - класс zzz, а третий абзац - одновременно оба этих класса.
+    И нам нужно выбрать последний абзац, не затронув остальные.</p>
+    <ol>
+        <li>.large.large2 {</li>
+        <li>color: red;</li>
+        <li>}</li>
+    </ol>
+    <h3>Несколько селекторов слитно.</h3>
+    <p><span class="zzz bbb">Уже указанным образом можно конструировать произвольные конструкции селекторов.При этом их порядок используемых селекторов значения не имеет, кроме правила, что >селекторы тегов нужно ставить в самом начале. Кроме того, можно формировать селекторы с использованием <b>id:</b></span></p>
+<button class="jij">
+    <ol>
+    <li>Вот так</li>
+    <li>h2.large.large2</li>
+    <li>Или вот так</li>
+    <li>h2.#lok2.large</li>
+</ol>
+</button>
+<p>Фон - это кнопка button: button class="jij"></p>
+<p>Для взаимодействия между классами, есть 3 способа:</p>
+<ol>
+    <li>Пробел - вложенность.</li>
+    <li>Запятая - перечисление.</li>
+    <li>Слитно - обьединение.</li>
+</ol>
+<h2>Группировка сложных селекторов.</h2>
+<p>Группируем через запятую и учитываем то, что селекторы не действуют через запятую. Вот пример:</p>
+<ol>
+    <li>Правильный вариант:</li>
+    <li>#block h2, #block h3 {</li>
+    <li>И неправильный вариант:</li>
+    <li>#block h2, h3 {</li>
+</ol>
+<h2>Приоритет селекторов CSS.</h2>
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
