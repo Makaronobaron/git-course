@@ -1,0 +1,197 @@
+
+body{ 
+background-color: #ffffff;  
+} 
+.rrr{ 
+    position: absolute; 
+    width: 300px; 
+    height: 22px; 
+    left: 0px; 
+    top: 170px; 
+    text-align: center; 
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 18px; 
+    line-height: 22px; 
+    color: #FFFFFF; 
+    width: 700px; 
+    height: 113px; 
+    background: #ff0095; 
+    backdrop-filter: blur(10px); 
+    border-radius: 25px; 
+    left: 700px; 
+    } 
+    .yy{ 
+        position: relative; 
+        top: 40px; 
+        font-size: 25px; 
+    } 
+    .control-pannel{     
+    /* панель управления освещением */ 
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 25px; 
+    line-height: 22px; 
+    margin-left: 22px; 
+    color: #000000; 
+    } 
+    .lampa{ 
+        /* ультрафиолетовые лампы */ 
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 25px; 
+    line-height: 22px; 
+    margin-top: 60px; 
+    margin-left: 22px; 
+    } 
+     
+    .lampa2{ 
+        /* лампы накаливания */ 
+        position: absolute; 
+    width: 179px; 
+    height: 44px; 
+     
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 25px; 
+    line-height: 22px; 
+    color: #000000; 
+    margin-top: 20px; 
+    margin-left: 15px; 
+     
+    } 
+    #main-frame{
+        position: absolute;
+    margin-top: 350px; 
+    width: 290px; 
+    height: 500px; 
+    background: #ff0095; 
+    border-radius: 20px; 
+    left: 500px; 
+    } 
+    .wwe{ 
+        width: 300px; 
+    height: 800px; 
+    position: absolute; 
+    background: #ff0095; 
+    border-radius: 20px; 
+    left: 170px; 
+    bottom: 500px; 
+    top:350px 
+     
+    } 
+    .wwe-panel{font-size: 25px; 
+        position: relative; 
+        text-align: center; 
+    } 
+    .wwe-panel2{font-size: 25px; 
+        position: relative; 
+        text-align: center; 
+        top: 60px; 
+    } 
+    .wwe-panel3{font-size: 25px; 
+        position: relative; 
+        top: 200px; 
+        text-align: center; 
+    } 
+    #range4{ 
+        position: relative; 
+      top:220px; 
+    height: 0px; 
+     } 
+     .cheek55{ 
+        position: relative; 
+        top: 200px; 
+        width: 300px; 
+        background-color: #ff0095; 
+    } 
+    .cheek66{ 
+        position: relative; 
+      bottom: 20px; 
+      width: 300px; 
+      background-color: #ff0095; 
+      
+    } 
+    .camera{ 
+        width: 480px; 
+    height: 273px; 
+     
+    background: #ff0095; 
+    border-radius: 20px; 
+    position: relative; 
+    left:330px; 
+    top: 260px; 
+    } 
+    .camera-text{ 
+        font-size: 30px; 
+    position: relative; 
+    text-align: center; 
+    } 
+    .Time{ 
+        width: 480px; 
+    height: 273px; 
+    position: relative; 
+    background: #ff0095; 
+    border-radius: 20px; 
+    left: 830px; 
+    bottom: 14px; 
+    } 
+    .Time-text{ 
+        font-size: 30px; 
+    position: relative; 
+    text-align: center; 
+    } 
+    #wga{ 
+        width: 300px; 
+        height: 665px; 
+        position: relative; 
+        background: #ff0095; 
+        border-radius: 20px; 
+        left: 1340px; 
+        bottom: 680px; 
+    } 
+     
+    .wga-co2{ 
+        position: absolute; 
+        width: 364px; 
+        height: 36px; 
+         
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 25px; 
+        line-height: 36px; 
+        left: 7px; 
+        color: #000000; 
+         
+    } 
+    .bi-bullseye{ 
+        position: relative; 
+     left: 39px; 
+     top: 35px; 
+    } 
+    .cheek{ 
+        width: 290px; 
+        position: relative; 
+        top: 40px; 
+        background-color: #ff0095; 
+    } 
+    .text{ 
+        position: relative; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 22px; 
+    top: 55px; 
+    } 
+    .text2{ 
+        position: relative; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 22px; 
+    top: 70px;
